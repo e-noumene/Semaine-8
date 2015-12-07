@@ -1,0 +1,469 @@
+/***************************** Base *****************************/
+
+html,body {
+   background-color: #2C3E50;
+   font-family: 'Ubuntu' , sans-serif;
+    height: 100%;
+}
+
+body {
+    text-align: justify;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.box {
+    background-color: #64B4B5;
+    text-align: justify;
+}
+
+.container .jumbotron {
+    padding-left: 0;
+}
+
+.navbar-inverse {
+    width: 1140px;
+}
+
+.navbar-right {
+    margin-right:3%;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    margin-top: 22px;
+    font-size: 20px;
+}
+.well {
+    margin-left: 6vh;
+    background-color: #BCBCBC;
+}
+/******************************* Modules ************************************/
+
+i {
+  margin: 1%;
+  padding-left: 2%;
+}
+
+#accueil {
+    background-color: #BCBCBC;
+}
+
+#accueil img {
+    float: right;
+    padding-top: 15%;
+}
+
+#accueil p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 4vh;
+    font-weight: 300;
+}
+
+#accueil h1 {
+    padding-top: 12%;
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 18%;
+}
+
+#accueil h3 {
+    padding-left: 21%;
+    color: #222222;
+}
+.box h1 {
+    padding-top: 2%;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #222222;
+}
+
+.box h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.box p {
+    text-align: justify;
+    margin-top: 6%;
+    font-size: 20px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.wall {
+   background-color: #BCBCBC;
+}
+
+
+.wall h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+}
+
+h4 {
+    padding: 1vh;
+    margin-top: 8%;
+    font-weight: 500;
+}
+
+.skills {
+    padding-top: 3vh;
+}
+.skills p {
+    padding-left: 8%;
+    padding-top: 1vh;
+    margin-left: 25vh;
+    margin-top: 4vh;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.label-primary {
+    height: 50px;
+    width: 200px;
+    background-color: #BCBCBC;
+    border: 1px solid #fff;
+}
+
+.comps {
+    font-weight: 500;
+    margin-top: 12vh;
+    padding-left: 38%;
+}
+
+.cursus {
+    margin-top: 23vh;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.cursus li {
+    text-align: justify;
+    margin-left: 15%;
+    margin-top: 3vh;
+    padding-left: 3vh;
+    font-size: 18px;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 300;
+    color: #222222;
+}
+.well {
+   background-color: #BCBCBC;
+   border: 1px solid #fff;
+
+}
+
+#expro li {
+    text-align: justify;
+    margin-left: 0;
+    margin-top: 2vh;
+    font-size: 18px;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 300;
+    color: #222222;
+}
+#expro h4 {
+    font-size: 20px;
+}
+.fa-html5 {
+    padding-left: 12%;
+    font-size: 27px;
+}
+
+.icon-javascript-alt {
+    padding-left: 28%;
+    font-size: 30px;
+}
+
+.icon-php-alt {
+    padding-left: 58%;
+    font-size: 30px;
+}
+
+.icon-ruby-on-rails-alt {
+    padding-left: 27%;
+    font-size: 27px;
+}
+
+
+iframe {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 28px;
+}
+
+#contact p {
+    text-align: center ;
+    font-size: 18px;
+    font-weight: 300;
+    color: #222222
+    margin-top: 10%;
+}
+
+#contact a {
+    color: #0a80e4;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 550px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.form-style-6 h1{
+    background: #45b4b5;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #45b4b5;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #1E8EC4;
+}
+/************************************** State ************************************/
+
+#contact a:hover {
+    color: #ff0000;
+    font-weight: 400;
+}
+
+/*********************** Portfolio **********************************************/
+
+#portf {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+#portf .well {
+    background-color: #64B4B5;
+}
+#filters {
+    margin:3%;
+    margin-left: 9%;
+    list-style:none;
+   }
+#filters li {
+    float:left;
+    }
+
+#filters li span {
+    display: block;
+    padding:5px 20px;
+    text-decoration:none;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #222222;
+    cursor: pointer;
+    }
+
+#filters li span.active {
+    background: #64B4B5;
+    color:#fff;
+    }
+
+.portfoliolist .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    margin: 1vh;
+    padding-left: 12vh;
+    display: inline-block;
+    float:left;
+    vertical-align: middle;
+    overflow:hidden;
+   }
+#portfoliolist .portfolio{
+    display: none;
+}
+.portfolio-wrapper {
+    position: relative !important;
+    background: #666;
+    cursor:pointer;
+    width: 350px;
+    height: 280px;
+    }
+
+img {
+    max-width:100%;
+    position: relative;
+    }
+
+.portfolio .label {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height:40px;
+    bottom:-40px;
+    }
+
+.portfolio .label-bg {
+    background: #64B4B5;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    }
+
+.portfolio .label-text {
+    color:#fff;
+    position: relative;
+    z-index:500;
+    padding:5px 8px;
+    }
+
+.portfolio .text-category {
+    display:block;
+    font-size:11px;
+    }
+.text-title {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.container {
+    width: 768px;
+    }
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+
+.container {
+    width: 95%;
+    }
+
+#portfoliolist .portfolio {
+    width:48%;
+    margin:1%;
+    }
+
+#ads {
+    display:none;
+    }
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.container {
+    width: 70%;
+    }
+
+#ads {
+    display:none;
+    }
+
+
+/* #Clearing */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+     content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+.clear {
+    clear: both;
+    }
+
+
+
+
+
