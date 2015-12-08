@@ -406,7 +406,23 @@ img {
 .container {
     width: 768px;
     }
+#accueil img {
+ margin-right: 28%;
+}
+#accueil {
+    text-align: center;
+}
+#accueil p {
+ padding-left: 9%;
+}
+.skills span {
+    visibility: hidden;
+}
 
+.skills p {
+    padding-right: 2%;
+    padding-top: 2%;
+}
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
